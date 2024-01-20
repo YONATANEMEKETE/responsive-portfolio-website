@@ -1,6 +1,6 @@
 ========== HEADER ==========
 .nav__logo
-AMAN
+IMAN 
 
 .nav__link
 Home - About Me - Portfolio - Contact Me
@@ -172,4 +172,4 @@ https://twitter.com/
 https://www.linkedin.com/
 
 .footer__copy
-&#169; All Rights Reserved By Bedimcode
+&#169; All Rights Reserved By Yonatane
