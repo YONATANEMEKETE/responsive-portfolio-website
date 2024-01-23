@@ -128,7 +128,7 @@ img {
   cursor: pointer;
   transition: color .4s;
 }
-
+ 
 /*========== Variables Dark theme ==========*/
 body.dark-theme {
     --title-color: hsl(var(--hue), 24%, 85%);
@@ -571,9 +571,9 @@ body.dark-theme {
   filter: none;
 }
 /* Swiper class */
-.swiper-pagination-bullets.swiper-pagination-horizontal{
-  bottom: -.05rem;
-} 
+/*.swiper-pagination-bullets.swiper-pagination-horizontal{
+    
+} */
 .swiper-pagination-bullet{
   background-color: var(--first-color-light);
   opacity: 1;
