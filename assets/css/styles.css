@@ -18,8 +18,8 @@
       -> Click on tab (Color Conversion)
       -> Copy the color mode (HSL)
   */
-  --hue: 14;
-  --first-color: hsl(var(--hue), 90%, 60%);
+  --hue: 240; 
+  --first-color: hsl(var(--hue), 83%, 42%);
   --first-color-alt: hsl(var(--hue), 82%, 56%);
   --first-color-light: hsl(var(--hue), 40%, 80%);
   --title-color: hsl(var(--hue), 24%, 16%);
@@ -190,15 +190,15 @@ body.dark-theme {
   border: 8px solid var(--first-color);
   border-radius: 50%;
   overflow: hidden; 
-  display: flex;
+  display: flex; 
   justify-content: center;
-  align-items: flex-end;
+  align-items: center;
   background: linear-gradient(180deg, 
               hsl(var(--hue), 90%, 80%),
               hsl(var(--hue), 90%, 30%) );
-}
+} 
 .perfil__img{
-  width: 150px;
+  width: 150px; 
 }
 
 .section__title {
@@ -847,7 +847,7 @@ body.dark-theme {
   } 
   .home__container{
     position: relative;
-    grid-template-columns: 500px 400px;
+    grid-template-columns: 450px 450px;
     align-items: center; 
     column-gap: 7rem;
     padding-block: 3.5rem 8rem;
